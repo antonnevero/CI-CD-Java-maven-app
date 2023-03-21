@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>java-maven-app</artifactId>
-    <version>1.1.32</version>
+    <version>1.1.86</version>
 
     <build>
         <plugins>
@@ -23,7 +23,6 @@
                 </executions>
             </plugin>
 
-            <!-- to handle any Java version mismatch, add the following configuration for maven-compiler-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
